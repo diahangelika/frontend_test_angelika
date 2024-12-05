@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F8F8F6 !important;
+}
+/*  */
+
+/* SIGNUP CSS */
+.signup{
+  padding: 0 20px;
+}
+/*  */
+
+/* NAVIGATION BAR CSS */
+.navbar{
+  margin: 7px 40px;
+}
+.tengah{
+  font-weight: bold;
+}
+/*  */
+
+/* WEB HEADER CSS */
+.headbro{
+  background-image: url('img/hero.png');
+  background-size: cover;
+  height: 600px;
+  color: white;
+}
+.title-page {
+  color: #E77E23;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 80px;
+  font-weight: bold;
+}
+/*  */
+
+/* HOMEPAGE CSS */
+.homepageContent {
+  margin: 0 100px;
+}
+.custom-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.homepageContent-Container {
+  display: flex;
+}
+.payment-part {
+  width: 450px;
+}
+/*  */
+
+/* PIZZA LIST CSS */
+.choose-pizza-container{
+  margin: 150px 0px 0px 0px;
+  /* width: 900px; */
+}
+.choose-pizza-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #E77E23;
+  margin-bottom: 20px;
+}
+.choose-pizza{
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: left;
+  align-items: center;
+  
+}
+.choose-pizza-card{
+ background-color: #F8F8F6;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border: 1px solid rgb(222, 222, 222);
+ /* padding: 10px 30px; */
+ border-radius: 20px;
+
+ margin: 10px;
+ transition: background-color .3s;
+}
+.pizza-name {
+  font-weight: bold;
+}
+.pizza-detail {
+  margin-left: 15px;
+}
+.pizza-gambar{
+  transition: transform .3s ease-in-out;
+}
+.choose-pizza-card:hover .pizza-gambar{
+  transform: rotate(20deg);  
+}
+.choose-pizza-card:hover{
+  background-color: rgb(255, 214, 138);
+}
+.choose-pizza-card:active {
+  background-color: #E77E23;
+  color: white;
+}
+/*  */
+
+/* SIZE LIST CSS */
+.size-container {
+  display: flex;
+  justify-content: left;
+  
+}
+.sizes{
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.sizes input {
+  margin-right: 5px;
+  accent-color: #E77E23;
+}
+/*  */
+
+/* TOPPING LIST CSS */
+.toppingList{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  margin: 20px 0;
+}
+.topping-list-content{
+  display: inline-block;
+}
+.topping-button:hover{
+  border: 1px solid #E77E23;
+  color: #E77E23;
+}
+/*  */
+
+/* PAYMENT SUMMARY */
+.payment-sidebar{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 250px;
+  margin-left: 60px;
+  padding: 20px 30px;
+  border-radius: 10px; 
+  width: 400px;
+}
+.order-button{
+  background-color: #E77E23;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.total-price{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+/*  */
+
+/* FOOTER CSS */
+.footer {
+  margin-top: 30px;
+}
+.navigation-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-kanan,
+.footer-kiri {
+  display: flex;
+  flex-direction: column;
+}
+.footer-kanan a,
+.footer-kiri a {
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+.row a:hover{
+  color: #E77E23;
+  transition: color 0.3s;
+} 
+.contact-footer{
+  margin-top: 20px;
+}
+.contact-footer a{
+  text-decoration: none;
+  color: black;
+}
+/*  */
